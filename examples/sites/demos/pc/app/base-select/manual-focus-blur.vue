@@ -23,7 +23,7 @@
     </div>
     <br />
     <div class="demo3">
-      <div>场景 2：配置 automaticDropdown，focus() 后聚焦并自动下拉</div>
+      <div>场景 3：配置 automaticDropdown，focus() 后聚焦并自动下拉</div>
       <br />
       <tiny-button @click="handleFocus3"> 点击获取焦点 </tiny-button>
       <tiny-button @click="handleBlur3"> 点击失去焦点 </tiny-button>
