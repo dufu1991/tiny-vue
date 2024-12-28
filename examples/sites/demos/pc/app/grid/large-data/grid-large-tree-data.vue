@@ -95,22 +95,22 @@
       <template #header="{ column }">{{ column.title }}</template>
       <template #default="{ row, column }">{{ row[column.property] }}</template>
     </tiny-grid-column>
-    <tiny-grid-column field="appid" title="所属APPID">
+    <tiny-grid-column field="appid" title="所属 APPID">
       <template #header="{ column }">{{ column.title }}</template>
       <template #default="{ row, column }">{{ row[column.property] }}</template>
     </tiny-grid-column>
-    <tiny-grid-column field="requireSource" title="需求来源  2"></tiny-grid-column>
-    <tiny-grid-column field="isRequireDev" title="是否需要开发  2"></tiny-grid-column>
-    <tiny-grid-column field="isRequireDec" title="是否需要分解  2"></tiny-grid-column>
-    <tiny-grid-column field="requireType" title="需求类型  2"></tiny-grid-column>
-    <tiny-grid-column field="requireSubcat" title="需求子类  2"></tiny-grid-column>
-    <tiny-grid-column field="budgetAuth" title="预算是否授予  2"></tiny-grid-column>
-    <tiny-grid-column field="userStoryCat" title="用户故事类别  2"></tiny-grid-column>
-    <tiny-grid-column field="product" title="产品  2"></tiny-grid-column>
-    <tiny-grid-column field="subProd" title="子产品  2"></tiny-grid-column>
-    <tiny-grid-column field="module" title="模块  2"></tiny-grid-column>
-    <tiny-grid-column field="appid" title="所属  APPID2"></tiny-grid-column>
-    <tiny-grid-column field="requireSource" title="需求来源  3"></tiny-grid-column>
+    <tiny-grid-column field="requireSource" title="需求来源 2"></tiny-grid-column>
+    <tiny-grid-column field="isRequireDev" title="是否需要开发 2"></tiny-grid-column>
+    <tiny-grid-column field="isRequireDec" title="是否需要分解 2"></tiny-grid-column>
+    <tiny-grid-column field="requireType" title="需求类型 2"></tiny-grid-column>
+    <tiny-grid-column field="requireSubcat" title="需求子类 2"></tiny-grid-column>
+    <tiny-grid-column field="budgetAuth" title="预算是否授予 2"></tiny-grid-column>
+    <tiny-grid-column field="userStoryCat" title="用户故事类别 2"></tiny-grid-column>
+    <tiny-grid-column field="product" title="产品 2"></tiny-grid-column>
+    <tiny-grid-column field="subProd" title="子产品 2"></tiny-grid-column>
+    <tiny-grid-column field="module" title="模块 2"></tiny-grid-column>
+    <tiny-grid-column field="appid" title="所属 APPID2"></tiny-grid-column>
+    <tiny-grid-column field="requireSource" title="需求来源 3"></tiny-grid-column>
     <tiny-grid-column field="isRequireDev" title="是否需要开发 3"></tiny-grid-column>
     <tiny-grid-column field="isRequireDec" title="是否需要分解 3"></tiny-grid-column>
     <tiny-grid-column field="requireType" title="需求类型 3"></tiny-grid-column>

@@ -139,7 +139,7 @@ export default {
       return (
         <span>
           {header}:{value}
-          <a>{'当前分组行数为' + children.length}</a>
+          <a>{'当前分组行数为 ' + children.length}</a>
         </span>
       )
     },

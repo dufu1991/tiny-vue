@@ -129,7 +129,7 @@ export default {
         },
         extends: [
           {
-            label: '我要过滤大于800的数', // 服务端过滤不需要配置method, 如果没有配置value值，默认会取label值
+            label: '我要过滤大于 800 的数', // 服务端过滤不需要配置method, 如果没有配置value值，默认会取label值
             method: ({ value }) => {
               return value > 800
             }
