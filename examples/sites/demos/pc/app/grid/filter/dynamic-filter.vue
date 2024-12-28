@@ -115,7 +115,7 @@ export default {
         defaultFilter: false,
         inputFilter: true,
         values: () => {
-          nameFilterData.push({ label: `GFD 科技 YX 公司${filterNumber}`, value: 'GFD 科技 YX 公司' })
+          nameFilterData.push({ label: `GFD 科技 YX 公司 ${filterNumber}`, value: 'GFD 科技 YX 公司' })
           filterNumber++
           return Promise.resolve(nameFilterData)
         }

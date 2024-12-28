@@ -31,20 +31,20 @@
       <tiny-grid-column field="address" title="地址"></tiny-grid-column>
       <tiny-grid-column field="englishName" title="英文名"></tiny-grid-column>
       <tiny-grid-column field="established" title="成立时间" sortable></tiny-grid-column>
-      <tiny-grid-column field="listed" title="是否上市1"></tiny-grid-column>
-      <tiny-grid-column field="ranking" title="国内排名1" sortable></tiny-grid-column>
+      <tiny-grid-column field="listed" title="是否上市 1"></tiny-grid-column>
+      <tiny-grid-column field="ranking" title="国内排名 1" sortable></tiny-grid-column>
       <tiny-grid-column field="registeredCapital" title="注册资本1" sortable></tiny-grid-column>
       <tiny-grid-column field="businessScope" title="业务范围1"></tiny-grid-column>
       <tiny-grid-column field="employees" title="员工数1" sortable></tiny-grid-column>
-      <tiny-grid-column field="address" title="地址1"></tiny-grid-column>
-      <tiny-grid-column field="englishName" title="英文名2"></tiny-grid-column>
-      <tiny-grid-column field="established" title="成立时间2" sortable></tiny-grid-column>
-      <tiny-grid-column field="listed" title="是否上市2"></tiny-grid-column>
-      <tiny-grid-column field="ranking" title="国内排名2" sortable></tiny-grid-column>
-      <tiny-grid-column field="registeredCapital" title="注册资本2" sortable></tiny-grid-column>
-      <tiny-grid-column field="businessScope" title="业务范围2"></tiny-grid-column>
-      <tiny-grid-column field="employees" title="员工数2" sortable></tiny-grid-column>
-      <tiny-grid-column field="address" title="地址2"></tiny-grid-column>
+      <tiny-grid-column field="address" title="地址 1"></tiny-grid-column>
+      <tiny-grid-column field="englishName" title="英文名 2"></tiny-grid-column>
+      <tiny-grid-column field="established" title="成立时间 2" sortable></tiny-grid-column>
+      <tiny-grid-column field="listed" title="是否上市 2"></tiny-grid-column>
+      <tiny-grid-column field="ranking" title="国内排名 2" sortable></tiny-grid-column>
+      <tiny-grid-column field="registeredCapital" title="注册资本 2" sortable></tiny-grid-column>
+      <tiny-grid-column field="businessScope" title="业务范围 2"></tiny-grid-column>
+      <tiny-grid-column field="employees" title="员工数 2" sortable></tiny-grid-column>
+      <tiny-grid-column field="address" title="地址 2"></tiny-grid-column>
       <tiny-grid-column v-if="flag" field="introduction" title="公司简介（最后一列）" show-overflow></tiny-grid-column>
     </tiny-grid>
   </div>
