@@ -234,7 +234,7 @@ function deleteItemsByChecked(data, removeRecords) {
     if (idSet.has(node.id)) {
       data.splice(i, 1) // 删除当前节点
 
-      idSet.delete(node.id) // 处理完目标节点后从集合中删除对应的ID
+      idSet.delete(node.id) // 处理完目标节点后从集合中删除对应的 ID
 
       if (idSet.size === 0) {
         break // 如果所有目标节点都已处理完成，则结束遍历
@@ -247,7 +247,7 @@ function deleteItemsByChecked(data, removeRecords) {
 /**
  * 删除 子集数据
  * @param children 子集数据
- * @param idSet 删除id集合
+ * @param idSet 删除 id 集合
  */
 function deleteChildItems(children, idSet) {
   for (let i = children.length - 1; i >= 0; i--) {
@@ -256,7 +256,7 @@ function deleteChildItems(children, idSet) {
     if (idSet.has(node.id)) {
       children.splice(i, 1) // 删除当前节点
 
-      idSet.delete(node.id) // 处理完目标节点后从集合中删除对应的ID
+      idSet.delete(node.id) // 处理完目标节点后从集合中删除对应的 ID
 
       if (idSet.size === 0) {
         break // 如果所有目标节点都已处理完成，则结束遍历

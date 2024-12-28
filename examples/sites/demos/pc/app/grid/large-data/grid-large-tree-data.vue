@@ -133,7 +133,7 @@ const template = {
   irTitle: 'IR-0',
   team: 'kweuat110',
   pi: '八月版本',
-  rollup: '3人天',
+  rollup: '3 人天',
   progress: '初始',
   prior: '中',
   microServ: 'MS012601',
@@ -178,16 +178,16 @@ const buildArr = ({ type, start, idStart }) =>
 const buildDatas = () => {
   const datas = buildArr({ type: 'IR', start: 20220812243395, idStart: 1 })
 
-  datas[0].irTitle += `-${count}个子US`
+  datas[0].irTitle += `-${count}个子 US`
   datas[0].children = buildArr({ type: 'US', start: 20220712243395, idStart: count + 1 })
 
-  datas[1].irTitle += `-${count}个子US`
+  datas[1].irTitle += `-${count}个子 US`
   datas[1].children = buildArr({ type: 'US', start: 20220612243395, idStart: count * 2 + 1 })
 
-  datas[2].irTitle += `-${count}个子US`
+  datas[2].irTitle += `-${count}个子 US`
   datas[2].children = buildArr({ type: 'US', start: 20220512243395, idStart: count * 3 + 1 })
 
-  datas[0].children[0].irTitle += `-${count}个子TASK`
+  datas[0].children[0].irTitle += `-${count}个子 TASK`
   datas[0].children[0].children = buildArr({ type: 'TK', start: 20220412243395, idStart: count * 4 + 1 })
 
   return datas

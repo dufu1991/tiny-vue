@@ -65,15 +65,15 @@ export default {
       tableData: [
         {
           id: '1',
-          name: 'GFD科技有限公司',
+          name: 'GFD 科技有限公司',
           address: '福州',
-          introduction: '公司技术和研发实力雄厚，是国家863项目的参与者，并被政府认定为“高新技术企业”。',
+          introduction: '公司技术和研发实力雄厚，是国家 863 项目的参与者，并被政府认定为“高新技术企业”。',
           employees: 800,
           englishName: 'GFD',
           established: '2005',
           listed: '是',
           ranking: '23',
-          registeredCapital: '2000万',
+          registeredCapital: '2000 万',
           businessScope: '食品'
         }
       ]
