@@ -3,7 +3,7 @@
     <tiny-grid-column field="id" width="60"></tiny-grid-column>
     <tiny-grid-column field="name" title="触发源" width="120">
       <template #default="{ row }">
-        <div class="only-me-can-drag">拖拽触发源{{ row.id }}</div>
+        <div class="only-me-can-drag">拖拽触发源 {{ row.id }}</div>
       </template>
     </tiny-grid-column>
     <tiny-grid-column field="name" title="公司名称"></tiny-grid-column>
