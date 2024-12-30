@@ -5,14 +5,14 @@
     <tiny-grid-column field="name" title="公司名称" sortable></tiny-grid-column>
     <tiny-grid-column
       field="employees"
-      title="员工数(员工数和名称组合排序)"
+      title="员工数（员工数和名称组合排序）"
       sortable
       :sort-by="['employees', 'name']"
       show-header-overflow
     ></tiny-grid-column>
     <tiny-grid-column
       field="createdDate"
-      title="创建日期(时间和名称组合排序)"
+      title="创建日期（时间和名称组合排序）"
       sortable
       :sort-by="['time', 'name']"
       show-header-overflow

@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { reactive } from 'vue'
 import { TinyGrid, TinyGridColumn, TinyGridToolbar } from '@opentiny/vue'
 
 const filteData = [
@@ -110,7 +110,7 @@ const nameFilter = reactive({
   defaultFilter: false,
   inputFilter: true,
   values: () => {
-    nameFilterData.push({ label: `GFD 科技 YX 公司${filterNumber}`, value: 'GFD 科技 YX 公司' })
+    nameFilterData.push({ label: `GFD 科技 YX 公司 ${filterNumber}`, value: 'GFD 科技 YX 公司' })
     filterNumber++
     return Promise.resolve(nameFilterData)
   }

@@ -7,7 +7,7 @@
     <tiny-grid-column type="selection" width="60"></tiny-grid-column>
     <tiny-grid-column
       field="name"
-      title="公司名称鼠标移入可以动态提示tooltip，公司名称鼠标移入可以动态提示tooltip"
+      title="公司名称鼠标移入可以动态提示 tooltip，公司名称鼠标移入可以动态提示 tooltip"
       show-header-overflow
       sortable
       :filter="nameFilter"
