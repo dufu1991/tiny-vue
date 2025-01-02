@@ -17,7 +17,7 @@ test('数据字段映射', async ({ page }) => {
     /status-back/
   ]
   const flagcontents = [
-    /第二阶段 flag-content-field/,
+    /第二阶段flag-content-field/,
     /第四阶段 1 flag-content-field/,
     /第四阶段 2 flag-content-field/,
     /第五阶段 flag-content-field/
