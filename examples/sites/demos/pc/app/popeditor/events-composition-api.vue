@@ -51,7 +51,7 @@ handlePageChange(1)
 
 function changeFn(val, data) {
   TinyModal.message({
-    message: `值变为${val},${JSON.stringify(data)}`,
+    message: `值变为 ${val},${JSON.stringify(data)}`,
     status: 'info'
   })
 }
