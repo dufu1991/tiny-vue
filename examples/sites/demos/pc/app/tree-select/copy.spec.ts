@@ -12,7 +12,7 @@ test('多选一键复制所有标签', async ({ page }) => {
   await expect(copyIcon).toBeVisible()
   await copyIcon.click()
   await copyValueInput.press('Control+V')
-  await expect(copyValueInput).toHaveValue('三级 1-1-1，二级 2-2')
+  await expect(copyValueInput).toHaveValue('三级 1-1-1,二级 2-2')
 })
 
 test('多选设置复制文本分隔符', async ({ page }) => {

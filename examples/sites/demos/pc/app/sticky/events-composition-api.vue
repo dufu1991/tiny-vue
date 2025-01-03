@@ -18,7 +18,7 @@ const change = (isFixed) => {
   })
 }
 const scroll = ({ scrollTop, isFixed }) => {
-  console.log(`scrollTop：${scrollTop}`, `isFixed：${isFixed}`)
+  console.log(`scrollTop: ${scrollTop}`, `isFixed: ${isFixed}`)
 }
 </script>
 

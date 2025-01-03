@@ -22,7 +22,7 @@ export default {
       })
     },
     scroll({ scrollTop, isFixed }) {
-      console.log(`scrollTop：${scrollTop}`, `isFixed：${isFixed}`)
+      console.log(`scrollTop: ${scrollTop}`, `isFixed: ${isFixed}`)
     }
   }
 }
