@@ -23,7 +23,7 @@ test('时间线流程图', async ({ page }) => {
     .nth(3)
   const xiaoHongBottom = page
     .getByRole('tooltip', { name: '小红 工号：123456890 部门：某部门 邮件：example@example.com 手机：1234567890' })
-    .getByText('部门：某部门邮件：example@example.com手机：1234567890')
+    .getByText('部门：某部门邮件：example@example.com 手机：1234567890')
 
   await expect(nodeLines).toHaveCount(2)
   await expect(nodeDates).toHaveCount(2)

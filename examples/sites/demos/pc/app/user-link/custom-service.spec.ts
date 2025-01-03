@@ -16,7 +16,7 @@ test('user-link-custom-service', async ({ page }) => {
   await expect(img).toHaveAttribute('src', /\/images\/dog1.png/)
 
   const text = card.locator('.card-top-text')
-  await expect(text).toContainText(['公共技术测试数据部门(测试数据部)'])
+  await expect(text).toContainText(['公共技术测试数据部门 (测试数据部)'])
 
   await page.getByText('展开').click()
   await page.getByText('收起').click()
