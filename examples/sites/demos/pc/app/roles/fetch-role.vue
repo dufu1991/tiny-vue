@@ -170,7 +170,7 @@ export default {
       /* 选中值发生变化时触发 */
       this.roleId = roleId
 
-      TinyModal.message(`当前选中的角色 id 是${roleId}`)
+      TinyModal.message(`当前选中的角色 id 是 ${roleId}`)
     }
   }
 }

@@ -166,6 +166,6 @@ function changeRole(roleIdNumber) {
   /* 选中值发生变化时触发 */
   roleId.value = roleIdNumber
 
-  TinyModal.message(`当前选中的角色 id 是${roleIdNumber}`)
+  TinyModal.message(`当前选中的角色 id 是 ${roleIdNumber}`)
 }
 </script>

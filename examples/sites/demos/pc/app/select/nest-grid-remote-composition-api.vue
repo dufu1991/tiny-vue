@@ -66,10 +66,10 @@ import { TinySelect } from '@opentiny/vue'
 const allData = Array.from({ length: 1000 }, (a, i) => {
   return {
     value: '00' + i,
-    province: '省份' + i,
-    city: '城市' + i,
-    area: '区域' + i,
-    label: `省${i}-市${i}`
+    province: '省份 ' + i,
+    city: '城市 ' + i,
+    area: '区域 ' + i,
+    label: `省 ${i}-市 ${i}`
   }
 })
 const baseGridOp = {
