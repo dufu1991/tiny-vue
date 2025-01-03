@@ -1,6 +1,6 @@
 <template>
   <tiny-tabs v-model="activeName" tab-style="card">
-    <tiny-tab-item title="表格组件A" name="first">
+    <tiny-tab-item title="表格组件 A" name="first">
       <tiny-grid :data="tableData" :auto-resize="true">
         <tiny-grid-column type="index" width="60"></tiny-grid-column>
         <tiny-grid-column type="selection" width="60"></tiny-grid-column>
@@ -10,7 +10,7 @@
         <tiny-grid-column field="city" title="城市(居中对齐)" align="center"></tiny-grid-column>
       </tiny-grid>
     </tiny-tab-item>
-    <tiny-tab-item title="表格组件B" name="second">
+    <tiny-tab-item title="表格组件 B" name="second">
       <tiny-grid :data="tableData" :auto-resize="true">
         <tiny-grid-column type="index" width="50"></tiny-grid-column>
         <tiny-grid-column type="selection" width="50"></tiny-grid-column>

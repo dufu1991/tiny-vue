@@ -19,7 +19,7 @@ function start(val) {
 function change(val) {
   TinyNotify({
     title: '触发 change 事件',
-    message: `改变值为${val}`,
+    message: `改变值为 ${val}`,
     offset: 100
   })
 }
@@ -27,7 +27,7 @@ function change(val) {
 function stop(val) {
   TinyNotify({
     title: '触发停止滑动事件',
-    message: `停止后值为${val}`,
+    message: `停止后值为 ${val}`,
     offset: 150
   })
 }

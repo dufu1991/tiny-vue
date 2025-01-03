@@ -91,7 +91,7 @@ test.describe('下拉表格远程搜索', () => {
     await page.getByRole('row', { name: '省份 0 城市 0 区域 0' }).getByRole('cell').first().click()
     const tags = page.locator('.tiny-select .tiny-tag')
     expect((await tags.all()).length).toEqual(1)
-    await expect(tags.first()).toContainText(/市0/)
+    await expect(tags.first()).toContainText(/市 0/)
     await page.getByRole('row', { name: '省份 1 城市 1 区域 1' }).getByRole('cell').first().click()
     expect((await tags.all()).length).toEqual(2)
     await expect(tags.first()).toContainText(/市 0/)
@@ -118,12 +118,12 @@ test.describe('下拉表格远程搜索', () => {
     await dropdown.getByRole('row', { name: '省份 0 城市 0 区域 0' }).getByRole('cell').first().click()
 
     expect((await tag.all()).length).toEqual(1)
-    await expect(tag.first()).toContainText(/市0/)
+    await expect(tag.first()).toContainText(/市 0/)
 
     await dropdown.getByRole('row', { name: '省份 1 城市 1 区域 1' }).getByRole('cell').first().click()
     expect((await tag.all()).length).toEqual(2)
     await expect(tag.first()).toContainText(/市 0/)
-    await expect(tag.nth(1)).toContainText(/市1/)
+    await expect(tag.nth(1)).toContainText(/市 1/)
     await tag.nth(0).locator('.tiny-svg').click()
     await tag.nth(0).locator('.tiny-svg').click()
     await expect((await tag.all()).length).toEqual(0)
