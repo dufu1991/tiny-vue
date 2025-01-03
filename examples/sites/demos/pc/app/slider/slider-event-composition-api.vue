@@ -18,7 +18,7 @@ function start(val) {
 
 function change(val) {
   TinyNotify({
-    title: '触发change事件',
+    title: '触发 change 事件',
     message: `改变值为${val}`,
     offset: 100
   })

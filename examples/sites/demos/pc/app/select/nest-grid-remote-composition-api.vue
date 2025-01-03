@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>场景1：单选，下拉表格远程搜索基础用法</p>
+    <p>场景 1：单选，下拉表格远程搜索基础用法</p>
     <br />
     <tiny-select
       v-model="value1"
@@ -13,7 +13,7 @@
     ></tiny-select>
     <br /><br />
 
-    <p>场景2：单选，下拉表格远程搜索 + 自动搜索 + 显示按钮</p>
+    <p>场景 2：单选，下拉表格远程搜索 + 自动搜索 + 显示按钮</p>
     <br />
     <tiny-select
       v-model="value2"
@@ -27,7 +27,7 @@
     ></tiny-select>
     <br /><br />
 
-    <p>场景3：多选，下拉表格远程搜索基础用法</p>
+    <p>场景 3：多选，下拉表格远程搜索基础用法</p>
     <br />
     <tiny-select
       v-model="value3"
@@ -42,7 +42,7 @@
     ></tiny-select>
     <br /><br />
 
-    <p>场景4：多选，下拉表格远程搜索 + 自动搜索 + 显示按钮</p>
+    <p>场景 4：多选，下拉表格远程搜索 + 自动搜索 + 显示按钮</p>
     <br />
     <tiny-select
       v-model="value4"
