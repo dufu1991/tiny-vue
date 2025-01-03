@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 
 test.describe('下拉表格远程搜索', () => {
-  test('单选，下拉表格远程搜索基础用法', async ({ page }) => {
+  test('单选,下拉表格远程搜索基础用法', async ({ page }) => {
     page.on('pageerror', (exception) => expect(exception).toBeNull())
     await page.goto('select#nest-grid-remote')
 
@@ -37,7 +37,7 @@ test.describe('下拉表格远程搜索', () => {
     await expect(input).toHaveValue('省 10-市 10')
   })
 
-  test('单选，下拉表格远程搜索 + 自动搜索 + 显示按钮', async ({ page }) => {
+  test('单选,下拉表格远程搜索 + 自动搜索 + 显示按钮', async ({ page }) => {
     page.on('pageerror', (exception) => expect(exception).toBeNull())
     await page.goto('select#nest-grid-remote')
 
@@ -66,7 +66,7 @@ test.describe('下拉表格远程搜索', () => {
     await expect(dropdown.locator('.tiny-grid__body tbody')).toBeEmpty()
   })
 
-  test('多选，下拉表格远程搜索基础用法', async ({ page }) => {
+  test('多选,下拉表格远程搜索基础用法', async ({ page }) => {
     page.on('pageerror', (exception) => expect(exception).toBeNull())
     await page.goto('select#nest-grid-remote')
     const wrap = page.locator('#nest-grid-remote')
@@ -98,7 +98,7 @@ test.describe('下拉表格远程搜索', () => {
     await expect(tags.nth(1)).toContainText(/市 1/)
   })
 
-  test('多选，下拉表格远程搜索 + 自动搜索 + 显示按钮', async ({ page }) => {
+  test('多选,下拉表格远程搜索 + 自动搜索 + 显示按钮', async ({ page }) => {
     page.on('pageerror', (exception) => expect(exception).toBeNull())
     await page.goto('select#nest-grid-remote')
 
